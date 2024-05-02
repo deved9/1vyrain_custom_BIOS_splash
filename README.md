@@ -7,6 +7,20 @@
 1. (W if using exe/both if using ISO) Update with original Lenovo update tool
     - [Example for T430](https://pcsupport.lenovo.com/us/cs/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t430/downloads/ds029252)
     - Follow instructions in BIOS_LOGO.TXT
+    - contents of BIOS_LOGO.TXT for T430 bios
+
+```
+GUIDELINES FOR CUSTOM START UP IMAGE:
+1. THE TWO IMAGE FILE SIZE ARE LIMITED TO 30KB.
+2. RESOLUTION OF THE IMAGE
+ LOGO1.* --> LESS THAN 640X480
+ LOGO2.* --> LESS THAN 1366X768
+3. VALID FORMATS FOR THE IMAGE ARE AS FOLLOWS:
+ BITMAP (.BMP) FILE FORMAT
+ JPEG (.JPG) FILE FORMAT
+ GIF (.GIF) FILE FORMAT
+4. LOGO2 IS DISPLAYED WHEN 'OS OPTIMIZED DEFAULTS' IS SET AS 'ENABLED' IN SETUP MENU. OTHERWISE, LOGO1 IS DISPLAYED.
+```
 
 2. (W) Downgrade BIOS with [IVprep](https://github.com/n4ru/IVprep)
 
